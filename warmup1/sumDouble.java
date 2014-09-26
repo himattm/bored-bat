@@ -9,9 +9,9 @@ public int sumDouble(int a, int b) {
 	String equalString = equal + ""; // makes the boolean a String
 
 	int num = equalString.indexOf("t") + 2; // Checks to see if the boolean contains "t"
-											// If it doenst it returns -1
-											// If it does returns 0 (the index of t)
-											// Increments by 2 to get 1 for false equals and 2 for true equals
+						// If it doenst it returns -1
+						// If it does returns 0 (the index of t)
+						// Increments by 2 to get 1 for false equals and 2 for true equals
 
 	return (a + b) * num;
 }
